@@ -1,3 +1,5 @@
+// WAP to print the product of decimal no. and integer no.
+
 import java.util.Scanner;
 
 public class Main
