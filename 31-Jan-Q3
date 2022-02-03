@@ -1,0 +1,22 @@
+WAP to add 3 to the new ADCII value of any character user provide and print the equivalent character
+
+import java.util.Scanner;  
+
+public class Main
+{  
+public static void main(String args[])  
+{  
+    
+System.out.print("Enter a character: ");  
+Scanner sc = new Scanner(System.in);  
+char chr = sc.next().charAt(0);  
+int asciiValue = chr;  
+System.out.println("ASCII value of " +chr+ " is: "+asciiValue); 
+
+asciiValue = asciiValue + 3;
+char ch= (char)asciiValue;
+System.out.println(asciiValue+"  =  "+ch); //Displaying ASCII value and its equivalent Character
+
+
+}  
+}  
